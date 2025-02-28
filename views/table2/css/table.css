@@ -1,0 +1,338 @@
+/*
+    Document   : table
+    Created on : Sep 24, 2011, 7:06:39 AM
+    Author     : punkepanda
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+
+
+.body {
+    color: white;
+    background-color: black;
+    #background-image: url(http://localhost/mywork/openpoker_game/views/table/images/room.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.infobox {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family:verdana;
+    font-size: 10px;
+    font-weight:normal;
+    padding:5px;
+    border: dotted 2px #555;
+}
+
+.table {
+     background-image: url(http://localhost/mywork/openpoker_game/views/table2/images/pokertable2.png);
+     background-repeat: no-repeat;
+     width: 1260px;
+     height: 550px;
+     margin-top: 150px;
+     margin-left: 200px;
+     font-family:verdana;
+     font-weight:bold;
+     padding:5px;
+}
+
+.dealer {
+
+    width: 200px;
+    height:110px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    border:solid 2px #555;
+}
+
+.tournament {
+    background-color: #111111;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 1110px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    border: dotted 2px #555;
+}
+
+.flop {
+    width: 355px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 470px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+}
+
+.turn {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 690px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+}
+
+.river {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 767px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+}
+
+.seat_1 {
+    width: 100px;;
+    height: 100px;
+    position: absolute;
+    top: 650px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 1px #555;
+}
+
+.seat_2 {
+    width: 150px;;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+}
+.seat_3 {
+    width: 150px;;
+    height: auto;
+    position: absolute;
+    top: 37px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+}
+.seat_4 {
+    width: 150px;;
+    height: auto;
+    position: absolute;
+    top: 37px;
+    left: 920px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+}
+.seat_5 {
+    width: 150px;;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    left: 1212px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+}
+.seat_6 {
+    width: 150px;;
+    height: auto;
+    position: absolute;
+    top: 650px;
+    left: 920px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+}
+
+.empty_seat_1 {
+    background-image: url(http://localhost/mywork/openpoker_game/images/empty_seat.png);
+    background-size: cover;
+    width: 100px;;
+    height: 100px;
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    margin: 0px;
+    border:solid 0px #555;
+}
+
+.txt_hand_1 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 805px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_hand_2 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 455px;
+    left: 40px;
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_hand_3 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_hand_4 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: 920px;
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_hand_5 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 455px;
+    left: 1212px;
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_hand_6 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 805px;
+    left: 920px;
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+
+
+.txt_join_1 {
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_join_2 {
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_join_3 {
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_join_4 {
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_join_5 {
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+.txt_join_6 {
+    font-family:verdana;
+    font-weight:bold;
+    color: #ffffff;
+    padding:0px;
+}
+
+
+.trans_box2 {
+  font-family:verdana;
+  font-weight:bold;
+  padding:40px;
+  margin:30px;
+  border:solid 1px #555;
+}
+/* IE ignores styles with [attributes], so it will skip the following. */
+.trans_box2[class] {
+  background-image:url(/75p_honey.png);
+}
+
+
+.debug {
+    alignment-adjust: middle;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 800px;
+    left: 0px;
+    font-family:verdana;
+    font-weight:normal;
+    font-size: 12px;
+    padding:0px;
+    border:solid 2px #555;
+    color: limegreen;
+}
+
+.user_action {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    font-family:verdana;
+    font-size: 15px;
+    font-weight:bold;
+    padding:5px;
+}

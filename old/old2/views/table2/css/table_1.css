@@ -1,0 +1,218 @@
+/* 
+    Document   : table
+    Created on : Sep 24, 2011, 7:06:39 AM
+    Author     : punkepanda
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+.body {
+    background-color: black;
+    #background-image: url(/openpoker/views/table/images/room.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.infobox {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family:verdana;
+    font-size: 10px;
+    font-weight:normal;
+    padding:5px;
+    border: dotted 2px #555;
+    
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+
+}
+.table {
+     background-image: url(http://alternativmedia.no/openpoker/views/table2/images/table.png);
+     background-repeat: no-repeat;
+     width: 1260px;
+     height: 550px;
+     margin-top: 200px;
+     margin-left: 200px;
+     font-family:verdana;
+     font-weight:bold;
+     padding:5px;
+     /* Mozilla ignores crazy MS image filters, so it will skip the following */
+     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');         
+}
+
+.dealer {
+
+    width: 200px;
+    height:110px;
+    position: absolute;
+    top: 10px;
+    left: 600px;  
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+
+.tournament {
+    background-color: #111111;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 1110px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    border: dotted 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');  
+}
+
+.flop {
+    width: 355px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 470px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+
+.turn {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 690px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+
+.river {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 767px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:5px;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+
+.seat_1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 650px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+
+.seat_2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+.seat_3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 37px;
+    left: 350px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+.seat_4 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 37px;
+    left: 920px; 
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+.seat_5 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: 1212px;   
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+.seat_6 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 650px;
+    left: 920px;    
+    font-family:verdana;
+    font-weight:bold;
+    padding:0px;
+    border:solid 2px #555;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');    
+}
+
+
+.trans_box2 {
+  font-family:verdana;
+  font-weight:bold;
+  padding:40px;
+  margin:30px;
+  border:solid 1px #555;
+  /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/75p_honey.png');
+}
+/* IE ignores styles with [attributes], so it will skip the following. */
+.trans_box2[class] {
+  background-image:url(/75p_honey.png);
+}
