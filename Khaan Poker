@@ -1,0 +1,4 @@
+git clone https://github.com/MegaLLC/OpenPoker.git
+cd OpenPoker
+npm install
+npm run dev
